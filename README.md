@@ -16,7 +16,7 @@ After basic data cleaning and feature engineering, I applied min-max normalizati
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Accuracy on test set: 0.77272
 
 * <b>[Decision Tree](https://github.com/mrodrigues17/machine_learning_from_scratch/blob/main/decision-tree-without-ml-libraries.ipynb)</b>
- After data cleaning and feature engineering, I build a function that calculate the gini impurity of each attribute to determing the best attribute to split on at each iteration. Using the gini impurity function, the data are then iteratively split until gini impurity no longer decreases. Once the tree is determined, test cases are applied to the tree rules and corresponding leaf labels are set to each case for prediction.
+ After data cleaning and feature engineering, I built a function that calculate the gini impurity of each attribute to determing the best attribute to split on at each iteration. Using the gini impurity function, the data are then iteratively split until gini impurity no longer decreases. Once the tree is determined, test cases are applied to the tree rules and corresponding leaf labels are set to each case for prediction.
   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Accuracy on test set: 0.76794
 
