@@ -7,6 +7,7 @@ The data are from Titanic survival dataset from Kaggle.com. This is a beginner's
 ## Algorithms Implemented
 <ol>
 <li>Logistic Regression</li>
+As an overview of the algorithm, I initialized coefficients and an intercept to zero and used the log-odds function to find the logarithm of the odds then applied a sigmoid function to restrict the values from 0 to 1. I then used gradient descent to find the optimal coefficients and intercept. These coefficients and intercept are then put into the sigmoid function with these sigmoid values determining the best threshold for classification. I included accuracy, recall and precision functions.
 <li>K-Nearest Neighbors</li>
 <li>Decision Tree</li>
 </ol>
