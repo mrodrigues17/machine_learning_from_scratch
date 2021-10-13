@@ -1,5 +1,5 @@
 # Writing Machine Learning Algorithms from Scratch in Python (no ML libraries) 
-Implementation of various machine learning algorithms on a binary classification task.
+Implementation of various machine learning algorithms on a binary classification task using only numpy and pandas
 
 ## Data
 The data are from Titanic survival dataset from Kaggle.com. This is a beginner's level competition where competitors use information about the Titanic passengers to predict if they survived or perished on the sinking ship.
