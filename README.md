@@ -15,6 +15,7 @@ Accuracy on test set: 0.77272
 
   <li><b>Decision Tree</b></li>
  After data cleaning and feature engineering, I build a function that calculate the gini impurity of each attribute to determing the best attribute to split on at each iteration. Using the gini impurity function, the data are then iteratively split until gini impurity no longer decreases. Once the tree is determined, test cases are applied to the tree rules and corresponding leaf labels are set to each case for prediction.
+  
 Accuracy on test set: 0.76794
 </ol>
 
